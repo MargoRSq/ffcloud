@@ -1,0 +1,4 @@
+opus/
+mp3/
+**/__pycache__/
+*.env

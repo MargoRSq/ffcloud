@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "music"
+version = "0.1.0"
+description = ""
+authors = ["margosq <slava1kvartovkin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+eyed3 = "^0.9.6"
+lyricsgenius = "^3.0.1"
+tinytag = "^1.8.1"
+ffmpy = "^0.3.0"
+starlette = "^0.20.0"
+
+[tool.poetry.dev-dependencies]
+mechanize = "^0.4.8"
+lxml = "^4.8.0"
+mutagen = "^1.45.1"
+pydub = "^0.25.1"
+m3u-maker = "^0.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
